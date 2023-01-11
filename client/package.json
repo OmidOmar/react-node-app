@@ -13,10 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i && react-scripts build && npm start`",
+    "build": "npm i && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "host": "node ../server/server.js"
+    "host": "node ../server/server.js && npm start"
   },
   "proxy": "https://react-node-app-ow75.onrender.com",
   "eslintConfig": {
