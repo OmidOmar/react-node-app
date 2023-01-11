@@ -10,8 +10,8 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from Server!" });
 });
 
-app.get("data", (req, res) => {
-  res.json({ message: "Hello from Server!" });
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
 
 app.listen(port, () => {
