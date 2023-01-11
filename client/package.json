@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "host": "node ../server/server.js && npm start"
   },
-  "proxy": "https://react-node-app-ow75.onrender.com",
+  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": [
       "react-app",
